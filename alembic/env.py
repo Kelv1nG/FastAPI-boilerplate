@@ -6,10 +6,8 @@ from sqlalchemy.engine import Connection
 from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from alembic import context
-
 # import models
 from app.core.models.model import BigIntBase
-
 # import models from app after this line
 #
 from app.settings.config import settings
